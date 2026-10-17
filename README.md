@@ -2,6 +2,8 @@
 
 **A fragrance discovery storefront for small-format samples.**
 
+[Open live demo](https://scent-atlas-virid.vercel.app) · [Administrator sign-in](https://scent-atlas-virid.vercel.app/admin)
+
 A full-stack portfolio project built with **Next.js, React, TypeScript, Supabase, and Node.js**. Browse 30 fragrances, filter by an editorial scent family, choose a 2/5/10 mL format, build a persistent shopping bag, and place a server-priced demo order with receipt lookup.
 
 ![Scent Atlas desktop storefront](docs/desktop.png)

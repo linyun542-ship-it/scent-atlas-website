@@ -42,3 +42,7 @@ Verified: anonymous direct table reads are denied; invalid gateway tokens are re
 Supabase's advisor flags the deliberately callable `SECURITY DEFINER` RPCs and the RLS-enabled table with no policies. These are intentional in this token-guarded design, not a claim that the advisor is clean. See [anonymous definer functions](https://supabase.com/docs/guides/database/database-linter?lint=0028_anon_security_definer_function_executable) and [RLS with no policies](https://supabase.com/docs/guides/database/database-linter?lint=0008_rls_enabled_no_policy). Review the token guard when adding any RPC; do not grant direct table access to silence these notices.
 
 This is a demonstration, not a production commerce launch. Order IDs act as bearer references for non-personal receipts. Public order creation is unauthenticated and requires platform-level rate limits before exposure to substantial traffic; the login attempt limiter is process-local and is not a distributed control. No real payments, addresses, shipment, inventory reservation, or customer account ownership are implemented.
+
+## Current demonstration
+
+The deployed demonstration is https://scent-atlas-virid.vercel.app. Git-triggered automatic deployment is disabled in `vercel.json`; a documentation-only push does not replace the tested deployment. Deploy updates explicitly after checking the target commit and environment.
