@@ -1,0 +1,302 @@
+[
+  {
+    "id": "dolce-gabbana-light-blue",
+    "brand": "Dolce & Gabbana",
+    "name": "Light Blue",
+    "concentration": "EDT",
+    "family": "Fresh",
+    "priceCents": 650,
+    "color": "#e4c76e",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "burberry-touch",
+    "brand": "Burberry",
+    "name": "Touch",
+    "concentration": "EDT",
+    "family": "Woody",
+    "priceCents": 550,
+    "color": "#b29b78",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "armaf-club-de-nuit-intense",
+    "brand": "Armaf",
+    "name": "Club de Nuit Intense",
+    "concentration": "EDT",
+    "family": "Woody",
+    "priceCents": 550,
+    "color": "#59666b",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "calvin-klein-ck-one",
+    "brand": "Calvin Klein",
+    "name": "CK One",
+    "concentration": "EDT",
+    "family": "Fresh",
+    "priceCents": 450,
+    "color": "#bfcdb9",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "calvin-klein-eternity-for-women",
+    "brand": "Calvin Klein",
+    "name": "Eternity for Women",
+    "concentration": "EDP",
+    "family": "Floral",
+    "priceCents": 550,
+    "color": "#e3cbb9",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "versace-eros",
+    "brand": "Versace",
+    "name": "Eros",
+    "concentration": "EDT",
+    "family": "Fresh",
+    "priceCents": 650,
+    "color": "#5b9f9c",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "azzaro-the-most-wanted",
+    "brand": "Azzaro",
+    "name": "The Most Wanted",
+    "concentration": "EDP Intense",
+    "family": "Amber",
+    "priceCents": 850,
+    "color": "#927148",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "versace-bright-crystal",
+    "brand": "Versace",
+    "name": "Bright Crystal",
+    "concentration": "EDT",
+    "family": "Floral",
+    "priceCents": 650,
+    "color": "#deabb9",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "lattafa-yara",
+    "brand": "Lattafa",
+    "name": "Yara",
+    "concentration": "EDP",
+    "family": "Sweet",
+    "priceCents": 450,
+    "color": "#e7b5bb",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "davidoff-cool-water",
+    "brand": "Davidoff",
+    "name": "Cool Water",
+    "concentration": "EDT",
+    "family": "Fresh",
+    "priceCents": 450,
+    "color": "#7eafbd",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "giorgio-armani-acqua-di-gi",
+    "brand": "Giorgio Armani",
+    "name": "Acqua di Giò",
+    "concentration": "EDT",
+    "family": "Fresh",
+    "priceCents": 750,
+    "color": "#d2cdb6",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "clinique-happy",
+    "brand": "Clinique",
+    "name": "Happy",
+    "concentration": "EDP",
+    "family": "Fresh",
+    "priceCents": 550,
+    "color": "#e7b172",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "burberry-goddess",
+    "brand": "Burberry",
+    "name": "Goddess",
+    "concentration": "EDP",
+    "family": "Sweet",
+    "priceCents": 850,
+    "color": "#c5a468",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "calvin-klein-obsession-for-women",
+    "brand": "Calvin Klein",
+    "name": "Obsession for Women",
+    "concentration": "EDP",
+    "family": "Amber",
+    "priceCents": 450,
+    "color": "#b07f47",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "calvin-klein-obsession-for-men",
+    "brand": "Calvin Klein",
+    "name": "Obsession for Men",
+    "concentration": "EDT",
+    "family": "Amber",
+    "priceCents": 450,
+    "color": "#b79163",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "juicy-couture-viva-la-juicy",
+    "brand": "Juicy Couture",
+    "name": "Viva La Juicy",
+    "concentration": "EDP",
+    "family": "Sweet",
+    "priceCents": 550,
+    "color": "#dfad70",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "calvin-klein-euphoria",
+    "brand": "Calvin Klein",
+    "name": "Euphoria",
+    "concentration": "EDP",
+    "family": "Floral",
+    "priceCents": 550,
+    "color": "#b995ae",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "montblanc-explorer",
+    "brand": "Montblanc",
+    "name": "Explorer",
+    "concentration": "EDP",
+    "family": "Woody",
+    "priceCents": 650,
+    "color": "#758d75",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "calvin-klein-eternity-for-men",
+    "brand": "Calvin Klein",
+    "name": "Eternity for Men",
+    "concentration": "EDT",
+    "family": "Fresh",
+    "priceCents": 550,
+    "color": "#a4c8bb",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "giorgio-armani-stronger-with-you-intensely",
+    "brand": "Giorgio Armani",
+    "name": "Stronger With You Intensely",
+    "concentration": "EDP",
+    "family": "Amber",
+    "priceCents": 850,
+    "color": "#b58052",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "lattafa-asad",
+    "brand": "Lattafa",
+    "name": "Asad",
+    "concentration": "EDP",
+    "family": "Amber",
+    "priceCents": 450,
+    "color": "#897c62",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "creed-aventus",
+    "brand": "Creed",
+    "name": "Aventus",
+    "concentration": "EDP",
+    "family": "Woody",
+    "priceCents": 1450,
+    "color": "#839186",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "calvin-klein-escape",
+    "brand": "Calvin Klein",
+    "name": "Escape",
+    "concentration": "EDP",
+    "family": "Floral",
+    "priceCents": 450,
+    "color": "#c2b57b",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "burberry-burberry-for-women",
+    "brand": "Burberry",
+    "name": "Burberry for Women",
+    "concentration": "EDP",
+    "family": "Floral",
+    "priceCents": 550,
+    "color": "#c39a7c",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes"
+  },
+  {
+    "id": "burberry-brit",
+    "brand": "Burberry",
+    "name": "Brit",
+    "concentration": "EDP",
+    "family": "Sweet",
+    "priceCents": 550,
+    "color": "#bca17b",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes?page=2"
+  },
+  {
+    "id": "dolce-gabbana-the-one-for-men",
+    "brand": "Dolce & Gabbana",
+    "name": "The One for Men",
+    "concentration": "EDP",
+    "family": "Amber",
+    "priceCents": 750,
+    "color": "#b29170",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes?page=2"
+  },
+  {
+    "id": "yves-saint-laurent-myslf",
+    "brand": "Yves Saint Laurent",
+    "name": "MYSLF",
+    "concentration": "EDP",
+    "family": "Woody",
+    "priceCents": 950,
+    "color": "#667d6c",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes?page=2"
+  },
+  {
+    "id": "valentino-uomo-born-in-roma",
+    "brand": "Valentino",
+    "name": "Uomo Born in Roma",
+    "concentration": "EDT",
+    "family": "Woody",
+    "priceCents": 850,
+    "color": "#9c8e91",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes?page=2"
+  },
+  {
+    "id": "est-e-lauder-pleasures",
+    "brand": "Estée Lauder",
+    "name": "Pleasures",
+    "concentration": "EDP",
+    "family": "Floral",
+    "priceCents": 650,
+    "color": "#c3cbb3",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes?page=2"
+  },
+  {
+    "id": "est-e-lauder-beautiful",
+    "brand": "Estée Lauder",
+    "name": "Beautiful",
+    "concentration": "EDP",
+    "family": "Floral",
+    "priceCents": 650,
+    "color": "#d0ae77",
+    "source": "https://www.fragrancenet.com/boutiques/best-selling-perfumes?page=2"
+  }
+]
