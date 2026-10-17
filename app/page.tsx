@@ -60,6 +60,9 @@ export default function Home() {
   const [receipt, setReceipt] = useState<Order | null>(null);
   const [reference, setReference] = useState("");
   const [lookup, setLookup] = useState<Order | null>(null);
+  const checkoutAttempt = useRef<{ fingerprint: string; key: string } | null>(
+    null,
+  );
   const dialog = useRef<HTMLDialogElement>(null);
   const lastFocus = useRef<HTMLElement | null>(null);
   const modalOpen = !!selected || !!panel;
@@ -150,14 +153,39 @@ export default function Home() {
     setBusy(true);
     setError("");
     try {
+      const fingerprint = JSON.stringify(cart);
+      if (
+        !checkoutAttempt.current ||
+        checkoutAttempt.current.fingerprint !== fingerprint
+      ) {
+        let prior = null;
+        try {
+          prior = JSON.parse(
+            sessionStorage.getItem("scent-atlas-checkout") || "null",
+          );
+        } catch {}
+        checkoutAttempt.current =
+          prior?.fingerprint === fingerprint
+            ? prior
+            : { fingerprint, key: crypto.randomUUID() };
+        sessionStorage.setItem(
+          "scent-atlas-checkout",
+          JSON.stringify(checkoutAttempt.current),
+        );
+      }
       const response = await fetch("/api/orders", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ items: cart }),
+        body: JSON.stringify({
+          items: cart,
+          checkoutKey: checkoutAttempt.current!.key,
+        }),
       });
       const data = await response.json();
       if (!response.ok) throw new Error(data.error);
       setReceipt(data);
+      checkoutAttempt.current = null;
+      sessionStorage.removeItem("scent-atlas-checkout");
       setReference(data.id);
       localStorage.setItem("scent-atlas-receipt", data.id);
       setCart([]);

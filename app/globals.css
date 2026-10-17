@@ -1337,3 +1337,117 @@ dialog::backdrop {
     animation: none !important;
   }
 }
+
+.admin-shell {
+  max-width: 1180px;
+  margin: auto;
+  padding: 0 5% 70px;
+}
+.admin-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid var(--line);
+  padding: 32px 0;
+  margin-bottom: 50px;
+}
+.admin-login {
+  max-width: 410px;
+  margin: 60px auto;
+}
+.admin-shell h1 {
+  font-size: 55px;
+  margin: 17px 0;
+}
+.admin-login > p,
+.admin-title p {
+  font-size: 12px;
+  color: var(--muted);
+}
+.admin-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 35px;
+}
+.admin-orders {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+.admin-order {
+  border: 1px solid var(--line);
+  padding: 25px;
+  background: #fffefa;
+}
+.admin-order-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.admin-order-head code {
+  display: block;
+  font-size: 10px;
+  overflow-wrap: anywhere;
+  margin: 8px 0;
+}
+.admin-order-head p {
+  font-size: 10px;
+  color: var(--muted);
+}
+.admin-order ul {
+  padding: 18px 0;
+  list-style: none;
+  border-block: 1px solid var(--line);
+  margin: 20px 0;
+}
+.admin-order li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 7px 0;
+  gap: 20px;
+}
+.admin-order li small {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+  margin-top: 5px;
+}
+.admin-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.admin-actions .button {
+  font-size: 10px;
+  padding: 12px;
+}
+.admin-shell .error {
+  margin: 25px 0;
+}
+.admin-header .text-link {
+  margin: 0;
+}
+@media (max-width: 640px) {
+  .admin-orders {
+    grid-template-columns: 1fr;
+  }
+  .admin-title {
+    display: block;
+  }
+  .admin-title > .button {
+    margin-top: 20px;
+  }
+  .admin-shell h1 {
+    font-size: 44px;
+  }
+  .admin-header > .eyebrow {
+    display: none;
+  }
+  .admin-order {
+    padding: 18px;
+  }
+}
